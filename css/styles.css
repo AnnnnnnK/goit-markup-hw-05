@@ -610,13 +610,13 @@ img{
     transition: box-shadow var(--transition);
 } 
 
-.projects-link:hover {
+/* .projects-link:hover {
   transform: translateY(0%);
 }
 
 .projects-link:focus {
   transform: translateY(0%);
-}
+} */
 .projects-img {
 }
 .projects-title {
@@ -667,8 +667,8 @@ img{
   padding: 40px 32px;
 }
 
-.projects-item:hover .overlay-text ,
-.projects-item:focus .overlay-text{
+.projects-link:hover .overlay-text ,
+.projects-link:focus .overlay-text{
   transform: translateY(0%);
 } 
 /**
